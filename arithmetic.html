@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>operator - Arithmetic</title>
+    <style>
+        h1
+        {
+            color: red;
+            /* opacity:0.6; */
+            font-weight: 100px;
+            font-family: 'Courier New', Courier, monospace;
+            /* font-weight: 549; */
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="op1" style="margin: 50px auto; width: 300px;"></h1>
+    
+    <h1 id="op2" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="op3" style="margin: 50px auto; width: 300px;"></h1>
+
+    <h1 id="op4" style="margin: 50px auto; width: 300px;"></h1>
+
+    <h1 id="op5" style="margin: 50px auto; width: 300px;"></h1>
+
+    <!-- <h2>hello js good morning</h2> -->
+    <h1 id="op6" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="op7" style="margin: 50px auto; width: 300px;"></h1>
+
+    <script>
+        //   addition
+        var x = 5;
+        var y = 6;
+        var z = x+y;
+        // alert(z);
+        document.getElementById('op1').innerHTML =z ;
+        // document.getElementById('h1').innerHTML = h1;
+        
+
+        //substrcption
+        var a = 5;
+        var b = 6;
+        var c = x-y;
+        // prompt(c+8,"jheek");
+        // alert(c);
+        // document.write(c);
+        // console.log(c);
+        document.getElementById('op2').innerHTML = c;
+        
+        //Multipication
+        var x = 5;
+        var y = 6;
+        var z = x*y;
+        document.getElementById('op3').innerHTML = z;
+
+        //Division
+        var x = 8;
+        var y = 3;
+        var z = x/y;
+        document.getElementById('op4').innerHTML = z;
+
+        //Modules
+        var x = 9;
+        var y = 3;
+        var z = x%y;
+        document.getElementById('op5').innerHTML = z;
+
+        //Increament
+        var a = 5;
+        a++;
+        document.getElementById('op6').innerHTML = a;
+
+        //Decreament
+        var x =5;
+        x--;
+        x++;
+        
+        document.getElementById('op7').innerHTML = x;
+
+    </script>
+
+</body>
+</html>
