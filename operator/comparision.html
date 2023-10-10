@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparision - Operator</title>
+    <style>
+        #div1{
+            background-color: rgb(8, 174, 196);
+             width: 150px;
+             height: 150px;
+        }
+        #div2{
+            background-color: red;
+            width: 50px;
+            height: auto;
+            color: yellow;
+            position: absolute;
+            bottom: 496px;
+            right: 1212px;
+            border-radius: 10px;
+            text-align: center;
+           cursor: pointer;
+            
+        }
+    </style>
+</head>
+<body>
+   <div id="div1">
+    <div id="div2">
+        <a href="arithmetic.html" style="color: black;" title="click" alt="not support" target="_parent">Add Card's</a>
+    </div>
+   </div>
+
+    <marquee behavior="scroll" scrollamount="10" direction="right"><h1 id="comp" style="color: rgb(196, 19, 87);">Comparision - Operator</h1></marquee>
+    <marquee behavior="scroll" scrollamount="20" direction="left"><h1 id="comp" style="color: rgb(30, 212, 24);">Comparision - Operator</h1></marquee>
+    <marquee behavior="scroll" scrollamount="2" direction="up"><h1 id="comp" style="color: rgb(62, 59, 240);">Comparision - Operator</h1></marquee>
+    <marquee behavior="scroll" scrollamount="1" direction="down"><h1 id="comp" style="color: rgb(241, 208, 17);">Comparision - Operator</h1></marquee>
+
+     <!-- Comparision - Operator -->
+    <!--  
+        ex: (x==y)
+          ex:(x!=y)
+          ex:(x>y)
+          ex:(x<y)
+          ex:(x>=y)
+          ex:(x<=y)
+    -->
+
+    <h1 id="com1" style="margin: 50px auto; width: 300px;"></h1>
+  
+    <h1 id="com2" style="margin: 50px auto; width: 300px;"></h1>
+
+    <h1 id="com3" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="com4" style="margin: 50px auto; width: 300px;"></h1>
+
+    <h1 id="com5" style="margin: 50px auto; width: 300px;"></h1>
+    <h1 id="com6" style="margin: 50px auto; width: 300px;"></h1>
+    
+    <script>
+        //Comparision - Operator
+        var x = 8;
+        var y = 10;
+        z = x == y;
+       document.getElementById('com1').innerHTML = z;
+
+       //Not equal to
+       var x = 8;
+        var y = 10;
+        z = x != y;
+       document.getElementById('com2').innerHTML = z;
+        
+       //Greater Than
+       var x = 8;
+        var y = 10;
+        z = x > y;
+       document.getElementById('com3').innerHTML = z;
+
+       //Smaller Than
+       var x = 8;
+        var y = 10;
+        z = x < y;
+       document.getElementById('com4').innerHTML = z;
+
+       //Greatter Than Equal To
+       var x = 8;
+        var y = 10;
+        z = x >= y;
+       document.getElementById('com5').innerHTML = z;
+
+       //Smaller Than Equal To
+       var x = 8;
+        var y = 10;
+        z = x <= y;
+       document.getElementById('com6').innerHTML = z;
+      
+    </script>
+</body>
+</html>
