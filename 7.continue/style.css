@@ -1,0 +1,20 @@
+#di1 {
+    /* background-image: linear-gradient(to left,white, orange, orange, red, orange, orange,white);
+    height: 450px; */
+}
+#c1
+{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    /* float: right; */
+}
+#c2
+{
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
